@@ -56,4 +56,6 @@ if %ERRORLEVEL% == 0 (
     echo %CROSS_ICON% NPM is not installed. Please install it!
 )
 
+:: Check if device name in wdio.conf.js is available in the emulator list
+node test/scripts/check-device.js
 endlocal

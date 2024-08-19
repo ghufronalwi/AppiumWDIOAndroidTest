@@ -36,7 +36,7 @@ function generateNewUser() {
 }
 
 /**
- * Register a new user using the provided user data.
+ * Register a new user using the provided user data and save to `users.js`.
  * 
  * @param {Object} userData - The data of the user to register.
  * 

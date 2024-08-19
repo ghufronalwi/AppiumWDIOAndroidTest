@@ -55,3 +55,6 @@ if command_exists npm; then
 else
     echo -e "${CROSS_ICON} NPM is not installed. Please install it!"
 fi
+
+# Check if device name in wdio.conf.js is available in the emulator list
+node test/scripts/check-device.js

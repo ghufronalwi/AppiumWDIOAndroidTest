@@ -68,7 +68,7 @@ describe('Login Tests', () => {
     allure.endStep();
   });
 
-  it.only('Login with empty email field', async () => {
+  it('Login with empty email field', async () => {
     allure.startStep(`Input empty empty email and click button Login`);
       await LoginPage.login('', newUser.password);
     allure.endStep();
@@ -79,7 +79,7 @@ describe('Login Tests', () => {
   });
 
   // This case is expected to be failed
-  it.only('Login with empty password field', async () => {
+  it('Login with empty password field', async () => {
     allure.startStep(`Input empty password field then click login`);
       await LoginPage.login(newUser.email, '');
     allure.endStep();

@@ -68,7 +68,7 @@ describe('Registration Tests', () => {
     allure.endStep();
   });
 
-  it.only('Register with empty email', async () => {
+  it('Register with empty email', async () => {
     allure.startStep(`Go to registration page and register with empty email field`);
       await LoginPage.goToRegistrationPage();
       await RegistrationPage.register(newUser.name, "", newUser.password, newUser.password);

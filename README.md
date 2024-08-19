@@ -75,12 +75,27 @@ If you have installed android studio, you can easily install the above list thro
 > [!WARNING]
 > **Important:**: The sample application does not compatible with Android 15 (SDK 35). I suggest using a lower version. In my case, I use Android 13 (SDK 33). Using Android 14  (SDK 34) still got warning that the app should be updated.
 
-#### 4. Set Up Environment Variables
+#### 4. Set Up Device Name in `wdio.conf.js`
+- From the root directory, open `wdio.conf.js`.
+- Update the `appium:deviceName` to match your emulator name. Here is the example:
+```wdio.conf.js
+    // ============
+    // Capabilities
+    // ============
+    capabilities: [{
+      platformName: 'Android',
+      'appium:automationName': 'UiAutomator2',
+      'appium:deviceName': 'Pixel_7_API_33', // Update with your emulator device name
+      'appium:app': './sampleApp/SampleAndroidApp-LoginTes_4.0_APKPure.apk'
+    }],
+```
+
+#### 5. Set Up Environment Variables
 Make sure you have configured the following environment variables:
 - ANDROID_HOME: Path to your Android SDK directory. (you can find the location from Android Studio, go to **More Actions** -> **SDK Manager**)
 - JAVA_HOME: Path to your Java JDK installation. (you can find the location using command `where java`)
 
-#### 5. Verify installation
+#### 6. Verify installation
 To verify that everything is installed and configured correctly, you can run `check-requirements.bat` or `check-requirements.sh`. This is the sample output:
 [ScreenshotCheckReq]()
 
