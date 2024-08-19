@@ -64,7 +64,7 @@ appium driver install uiautomator2
 
 #### 2. Install Android SDK Components
 Make sure the following SDK components are installed:
-- SDK Platform (select Android platform to automate, for my example, API level 34)
+- SDK Platform (select version of Android platform to automate)
 - Platform Tools
 - Command-line Tools
 If you have installed android studio, you can easily install the above list through SDK Manager menu. Here are example screenshot of mine:
