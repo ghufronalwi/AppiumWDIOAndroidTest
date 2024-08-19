@@ -65,7 +65,9 @@ Make sure the following SDK components are installed:
 - Platform Tools
 - Command-line Tools
 If you have installed android studio, you can easily install the above list through SDK Manager menu. Here are example screenshot of mine:
-[ScreenshotAndroidStudioSDKManager]()
+
+![](https://github.com/ghufronalwi/AppiumWDIOAndroidTest/blob/master/screenshot/ss-android-sdk.png)
+
 
 #### 3. Set Up Android Emulator
 - Open Android Studio
@@ -97,7 +99,8 @@ Make sure you have configured the following environment variables:
 
 #### 6. Verify installation
 To verify that everything is installed and configured correctly, you can run `check-requirements.bat` or `check-requirements.sh`. This is the sample output:
-[ScreenshotCheckReq]()
+
+![](https://github.com/ghufronalwi/AppiumWDIOAndroidTest/blob/master/screenshot/ss-check-req.png)
 
 > Note: Make sure everything is installed and configured correctly.
 
