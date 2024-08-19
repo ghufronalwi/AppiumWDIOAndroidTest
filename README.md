@@ -130,4 +130,7 @@ npm run allure-report
 ```
 
 ## Screenshot of test results
+> [!NOTE]  
+> - Some test are expected to be failed due to not matching my expected criteria.
+> - This test works well with Pixel 7 Android 13 (SDK 33) emulator device. For some device with smaller resolution might be facing issue.
 [AllureScreenshot]()
