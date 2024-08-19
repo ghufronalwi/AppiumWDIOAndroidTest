@@ -15,6 +15,8 @@ root/
 |------ users.js        # Test data
 |---- pageobjects/
 |------ {page}.page.js  # Page objects files
+|---- scripts/
+|------ check-device.js # Script to check emulator device name is exists
 |---- specs/
 |------ {test}.e2e.js   # Test files
 |---- utils/

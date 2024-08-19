@@ -1,8 +1,8 @@
 module.exports = {
   "userData": [
     {
-      "name": "John 1724021271933",
-      "email": "john.1724021271933@example.com",
+      "name": "John 1724079690562",
+      "email": "john.1724079690562@example.com",
       "password": "@Bcd1234"
     }
   ]

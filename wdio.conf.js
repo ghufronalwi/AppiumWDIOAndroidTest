@@ -26,7 +26,7 @@ exports.config = {
     capabilities: [{
       platformName: 'Android',
       'appium:automationName': 'UiAutomator2',
-      'appium:deviceName': 'Pixel_7_API_33', // Update with your emulator device name
+      'appium:deviceName': 'Pixel_8_API_33', // Update with your emulator device name
       'appium:app': './sampleApp/SampleAndroidApp-LoginTes_4.0_APKPure.apk'
     }],
     // ============
