@@ -34,6 +34,7 @@ Before start running the test, make sure you have install the following requirem
 3. **Java JDK**: Ensure Java is installed and `JAVA_HOME` is set correctly.
 4. **Appium**: Install Appium globally using `npm install -g appium`.
 
+> [!NOTE]
 > I'm using:
 > - Node version 21.7.3
 > - NPM version 10.5.0
@@ -133,4 +134,5 @@ npm run allure-report
 > [!NOTE]  
 > - Some test are expected to be failed due to not matching my expected criteria.
 > - This test works well with Pixel 7 Android 13 (SDK 33) emulator device. For some device with smaller resolution might be facing issue.
-[AllureScreenshot]()
+
+![AllureScreenshot](https://raw.githubusercontent.com/ghufronalwi/AppiumWDIOAndroidTest/master/screenshot/ss-allure-report.png)
