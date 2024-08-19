@@ -83,9 +83,6 @@ If you have installed android studio, you can easily install the above list thro
 - From the root directory, open `wdio.conf.js`.
 - Update the `appium:deviceName` to match your emulator name. Here is the example:
 ```wdio.conf.js
-    // ============
-    // Capabilities
-    // ============
     capabilities: [{
       platformName: 'Android',
       'appium:automationName': 'UiAutomator2',
@@ -112,14 +109,16 @@ Open a terminal and start the Appium server:
 ```
 appium --base-path /wd/hub --allow-cors
 ```
+> [!IMPORTANT]
+> Note: Based on my experience, running in Git Bash terminal makes the connection between test and appium server failed. I'm recommending using Command Prompt terminal.
 
 ### 2. Start Android Emulator
 Open Android Studio, go to **More Actions** -> **Virtual Device Manager** -> **Start your emulator**
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Note: Make sure your emulator has already running before executing the test.
 
 ### 3. Run test
-Execute the test by running this command:
+Open new terminal and execute the test by running this command:
 ```bash
 npm run test
 ```
